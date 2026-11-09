@@ -200,6 +200,10 @@ h6 {
   transition: 0.3s;
 }
 
+.header .social-links a.instagram {
+  font-size: clamp(14px, 4vw, 16px);
+}
+
 .header .social-links a:hover {
   color: var(--contrast-color);
   background: var(--accent-color);
